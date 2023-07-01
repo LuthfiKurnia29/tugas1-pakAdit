@@ -7,18 +7,22 @@ body{
   background-color: black;
   background-size:cover;
 }
-nav {
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #101010;
-  padding: 15px 8% 0 8%;
-  position: fixed;
-  z-index: 9999;
-}
 .navbar{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 70%;
+}
+nav ul li a {
+  color: grey;
+  height: 35px;
+  line-height: 20px;
+  padding: 0 20px;
+  text-decoration: none;
+  display: block;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ffffff;
+  background-color:#187c9b;
 }
 .kontak-saya {
   width: 100%;
@@ -90,6 +94,7 @@ footer p:nth-child(2){
 }
 .end {
   position: absolute;
-  color: #20b2aa;
+  color: silver;
   bottom: 35px;
+  font-size: small;
 }
