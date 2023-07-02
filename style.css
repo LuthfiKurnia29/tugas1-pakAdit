@@ -98,3 +98,32 @@ footer p:nth-child(2){
   bottom: 35px;
   font-size: small;
 }
+.card-container {
+  display: flex;
+}
+.card {
+  flex: 0 0 20%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* padding: 10px; */
+  margin-right: 10px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.card-content {
+  margin-top: 10px;
+}
+
+.card-content h2 {
+  font-size: 18px;
+}
+.card-content p {
+  font-size: 14px;
+  color: #666;
+}
