@@ -68,8 +68,8 @@ nav ul li a.active {
 footer {
   position: relative;
   width: 100%;
-  height: 400px;
-  background: #191919;
+  height: 100px;
+  background: #474747;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,7 +116,7 @@ footer p:nth-child(2){
   flex: 0 0 20%;
   border: 1px solid #ccc;
   border-radius: 5px;
-  
+  overflow: hidden;
   margin-right: 10px;
 }
 .card:last-child {
@@ -124,17 +124,14 @@ footer p:nth-child(2){
 }
 .card img {
   width: 100%;
-  height: auto;
   border-radius: 5px;
-}
-.card-content {
-  margin-top: 10px;
 }
 
 .card-content h2 {
-  font-size: 18px;
+  margin-top: 10px;
+  font-size: 14px;
 }
 .card-content p {
-  font-size: 14px;
+  font-size: 15px;
   color: #666;
 }
