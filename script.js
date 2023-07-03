@@ -1,1 +1,1 @@
-var tbl = document.querySelectorAll('')
+var carousel = document.querySelectorAll('.carousel-item').forEach((c) => c);
